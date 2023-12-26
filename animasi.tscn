@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://bephg6so572a7"]
+
+[ext_resource type="PackedScene" uid="uid://c4tipkadm3h5a" path="res://jalan.tscn" id="1_vnhpp"]
+[ext_resource type="PackedScene" uid="uid://las40meca4dk" path="res://player.tscn" id="2_4ef3c"]
+[ext_resource type="PackedScene" uid="uid://b3xnjregod8yb" path="res://enemy.tscn" id="3_6tdrg"]
+[ext_resource type="PackedScene" uid="uid://4i32rawkhs0r" path="res://salju.tscn" id="4_ca2cx"]
+
+[node name="animasi" type="Node2D"]
+
+[node name="jalan" parent="." instance=ExtResource("1_vnhpp")]
+position = Vector2(5, -6)
+
+[node name="Player" parent="." instance=ExtResource("2_4ef3c")]
+position = Vector2(563, 523)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_6tdrg")]
+position = Vector2(3126, 211)
+
+[node name="CharacterBody2D2" parent="." instance=ExtResource("3_6tdrg")]
+position = Vector2(4318, 213)
+
+[node name="GPUParticles2D" parent="." instance=ExtResource("4_ca2cx")]
+position = Vector2(795, 178)
+
+[node name="GPUParticles2D" parent="GPUParticles2D" instance=ExtResource("4_ca2cx")]
+position = Vector2(1275, -11)
+
+[node name="GPUParticles2D2" parent="GPUParticles2D" instance=ExtResource("4_ca2cx")]
+position = Vector2(5767, -75)
+
+[node name="GPUParticles2D3" parent="GPUParticles2D" instance=ExtResource("4_ca2cx")]
+position = Vector2(2057, -12)
+
+[node name="GPUParticles2D4" parent="GPUParticles2D" instance=ExtResource("4_ca2cx")]
+position = Vector2(2765, -14)
+
+[node name="GPUParticles2D5" parent="GPUParticles2D" instance=ExtResource("4_ca2cx")]
+position = Vector2(4443, -55)
+
+[node name="GPUParticles2D6" parent="GPUParticles2D" instance=ExtResource("4_ca2cx")]
+position = Vector2(7687, -65)

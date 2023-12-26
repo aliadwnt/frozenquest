@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwrvsgyiuncps"]
+
+[ext_resource type="Texture2D" uid="uid://cr4fxcyg4l1j8" path="res://png/BG/BG.png" id="1_tcs5l"]
+
+[node name="Bg" type="Sprite2D"]
+position = Vector2(657, 447)
+texture = ExtResource("1_tcs5l")

@@ -1,0 +1,79 @@
+[gd_scene load_steps=4 format=3 uid="uid://bolmp826xbnxf"]
+
+[ext_resource type="Texture2D" uid="uid://kb1yqyd2ik5n" path="res://png/BG/download (2).jpeg" id="1_nbut5"]
+[ext_resource type="FontFile" uid="uid://c60eixeb3vs2x" path="res://Font/frozen/Ice kingdom - Bold - Por Kustren.otf" id="2_ekuuo"]
+[ext_resource type="Script" path="res://Button.gd" id="3_ky23d"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(578, 324)
+scale = Vector2(1.56522, 1.56039)
+texture = ExtResource("1_nbut5")
+
+[node name="MarginContainer" type="MarginContainer" parent="Sprite2D"]
+offset_left = -124.0
+offset_top = -59.0
+offset_right = 123.0
+offset_bottom = 77.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Sprite2D/MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Sprite2D/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Sprite2D/MarginContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ekuuo")
+theme_override_font_sizes/font_size = 35
+text = "NEW GAME"
+flat = true
+script = ExtResource("3_ky23d")
+
+[node name="MarginContainer2" type="MarginContainer" parent="Sprite2D/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Sprite2D/MarginContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ekuuo")
+theme_override_font_sizes/font_size = 35
+text = "LOAD GAME"
+flat = true
+
+[node name="MarginContainer3" type="MarginContainer" parent="Sprite2D/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Sprite2D/MarginContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ekuuo")
+theme_override_font_sizes/font_size = 35
+text = "OPTIONS"
+flat = true
+
+[node name="MarginContainer4" type="MarginContainer" parent="Sprite2D/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="Sprite2D/MarginContainer/VBoxContainer/MarginContainer4"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_ekuuo")
+theme_override_font_sizes/font_size = 35
+text = "EXIT"
+flat = true
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 308.0
+offset_top = 105.0
+offset_right = 857.0
+offset_bottom = 195.0
+size_flags_horizontal = 6
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("2_ekuuo")
+theme_override_font_sizes/font_size = 83
+text = "FROZEN QUEST"
+
+[connection signal="button_up" from="Sprite2D/MarginContainer/VBoxContainer/MarginContainer/Button" to="Sprite2D/MarginContainer/VBoxContainer/MarginContainer/Button" method="_on_button_up"]

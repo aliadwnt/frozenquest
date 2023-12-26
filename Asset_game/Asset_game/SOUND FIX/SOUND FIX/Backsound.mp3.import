@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://lsw2k2sk34yv"
+path="res://.godot/imported/Backsound.mp3-553cffee61024b7ff04a3acae8fe86e6.mp3str"
+
+[deps]
+
+source_file="res://Asset_game/Asset_game/SOUND FIX/SOUND FIX/Backsound.mp3"
+dest_files=["res://.godot/imported/Backsound.mp3-553cffee61024b7ff04a3acae8fe86e6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cn7uoq245hwuu"
+path="res://.godot/imported/Serang.mp3-b3dda5be31485d36fc89190840a907a0.mp3str"
+
+[deps]
+
+source_file="res://Asset_game/Asset_game/SOUND FIX/SOUND FIX/Serang.mp3"
+dest_files=["res://.godot/imported/Serang.mp3-b3dda5be31485d36fc89190840a907a0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfh1kb68jgf84"
+path="res://.godot/imported/Lompat.mp3-098950f3a742d5d0fc0f374646fd73b3.mp3str"
+
+[deps]
+
+source_file="res://Asset_game/Asset_game/SOUND FIX/SOUND FIX/Lompat.mp3"
+dest_files=["res://.godot/imported/Lompat.mp3-098950f3a742d5d0fc0f374646fd73b3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
